@@ -30,3 +30,9 @@ pnpm-debug.log*
 # claude skills (local only)
 .claude/skills/
 
+# local-only config files
+*.local.json
+*.local.js
+*.local.ts
+*.local.env
+
