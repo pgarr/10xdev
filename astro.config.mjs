@@ -16,8 +16,8 @@ export default defineConfig({
   adapter: cloudflare(),
   env: {
     schema: {
-      SUPABASE_URL: envField.string({ context: "server", access: "secret", optional: true }),
-      SUPABASE_KEY: envField.string({ context: "server", access: "secret", optional: true }),
+      SUPABASE_URL: envField.string({ context: "server", access: "secret", optional: false }),
+      SUPABASE_KEY: envField.string({ context: "server", access: "secret", optional: false }),
     },
   },
 });
